@@ -1,43 +1,42 @@
 GIT
   remote: https://github.com/cloudfoundry/buildpack-packager
-  revision: 720b7ef03b7b677dc7a83d42a3838468433c4a2b
-  tag: v2.3.4
+  revision: 12fafa8a695dfb6003bc3297063ce85c1494f77b
+  tag: v2.3.9
   specs:
-    buildpack-packager (2.3.4)
-      activesupport (~> 4.1.8)
-      kwalify
-      terminal-table (~> 1.4.5)
+    buildpack-packager (2.3.9)
+      activesupport (~> 4.1)
+      kwalify (~> 0)
+      semantic
+      terminal-table (~> 1.4)
 
 GIT
   remote: https://github.com/cloudfoundry/machete
-  revision: e1c010097d4452e15abe373de8e1b49c1fb8166f
-  tag: v0.0.55
+  revision: c940e3a514a8656828fbb06a701f2cd00ed34fcb
+  tag: v0.0.66
   specs:
-    machete (0.0.55)
+    machete (0.0.66)
       childprocess
       httparty
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.1.16)
-      i18n (~> 0.6, >= 0.6.9)
-      json (~> 1.7, >= 1.7.7)
+    activesupport (4.2.8)
+      i18n (~> 0.7)
       minitest (~> 5.1)
-      thread_safe (~> 0.1)
+      thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    childprocess (0.5.9)
+    childprocess (0.6.3)
       ffi (~> 1.0, >= 1.0.11)
     diff-lcs (1.2.5)
     excon (0.51.0)
-    ffi (1.9.14)
+    ffi (1.9.18)
     httparty (0.14.0)
       multi_xml (>= 0.5.2)
-    i18n (0.7.0)
-    json (1.8.3)
+    i18n (0.8.4)
     kwalify (0.7.2)
-    minitest (5.9.1)
-    multi_xml (0.5.5)
+    minitest (5.10.2)
+    multi_xml (0.6.0)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
       rspec-expectations (~> 3.5.0)
@@ -54,10 +53,13 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
-    terminal-table (1.4.5)
-    thread_safe (0.3.5)
-    tzinfo (1.2.2)
+    semantic (1.6.0)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+    thread_safe (0.3.6)
+    tzinfo (1.2.3)
       thread_safe (~> 0.1)
+    unicode-display_width (1.2.1)
 
 PLATFORMS
   ruby
@@ -74,4 +76,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.6
+   1.15.0
